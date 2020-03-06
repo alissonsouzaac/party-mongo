@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const ContactSchema = new Schema({
    id_party : {Contact.length + 1},
-   name_party : { type: String, require: true},
+   name_party1 : { type: String, require: true},
    date_party : { type: String, require: true},
    price_party : {type: String, require: true},
    local_party : { type: String, require: true},
