@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const ContactSchema = new Schema({
+   id_party : {Contact.length + 1},
    name_party : { type: String, require: true},
    date_party : { type: String, require: true},
    price_party : {type: String, require: true},
